@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".addItemsActivity">
+
+
+    <EditText
+        android:id="@+id/edit_text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Add item name here"
+        android:inputType="text" />
+
+    <TextView
+        android:id="@+id/dateTextViewAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnDateAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Change Date" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioButton
+            android:id="@+id/rbHighPrio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="High Priority" />
+
+        <RadioButton
+            android:id="@+id/rbMediumPrio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium Priority" />
+
+        <RadioButton
+            android:id="@+id/rbLowPrio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Low Priority" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/ivAddBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_baseline_add_circle_24" />
+
+
+</LinearLayout>

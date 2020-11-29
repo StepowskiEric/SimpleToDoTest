@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/checkBoxView"
+        android:layout_width="50dp"
+        android:layout_height="170dp"
+        android:background="@color/purple_700"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:layout_width="352dp"
+        android:layout_height="168dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="1dp">
+
+
+        <TextView
+            android:id="@+id/taskListTextView"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:text="Task 1"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/categoryTextView"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:text="Due Date"
+            android:textSize="25dp"
+            android:textStyle="italic" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/priorityTextView"
+                android:layout_width="153dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="1dp"
+                android:text="Priority" />
+
+            <Button
+                android:id="@+id/updateBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update Item" />
+
+            <ImageView
+                android:id="@+id/imageViewDelete"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="155dp"
+                app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

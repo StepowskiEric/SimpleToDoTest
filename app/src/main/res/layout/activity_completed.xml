@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <CheckBox
+        android:id="@+id/checkBoxView"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@color/purple_700"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:layout_width="352dp"
+        android:layout_height="118dp"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+
+
+
+
+
+        <TextView
+            android:id="@+id/taskListTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Task 1"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <CalendarView
+            android:id="@+id/categoryTextView"
+            android:layout_width="257dp"
+            android:layout_height="45dp"
+            android:layout_below="@+id/dateTextView"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:dateTextAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:text="Due Date"
+            android:textStyle="italic" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/priorityTextView"
+                android:layout_width="153dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="0dp"
+                android:text="Priority" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
