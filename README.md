@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-<img src = 'https://i.imgur.com/Rv5UUFo.gif' title = 'Video Walkthrough' width='' alt = 'Video Walkthrough' />
+<img src = 'SimpleToDoWalkthrough.gif' title = 'Video Walkthrough' width='' alt = 'Video Walkthrough' />
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
